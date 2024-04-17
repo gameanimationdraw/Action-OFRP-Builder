@@ -8,7 +8,7 @@ on:
         required: true
         default: 'https://gitlab.com/OrangeFox/sync.git'
       MANIFEST_BRANCH:
-        description: 'MANIFEST_BRANCH'
+        description: '12.1'
         required: true
         default: '11.0'
       DEVICE_TREE_URL:
@@ -16,11 +16,11 @@ on:
         required: true
         default: 'https://github.com/OrangeFoxRecovery/device_xiaomi_garden'
       DEVICE_TREE_BRANCH:
-        description: 'lineage-18.1'
+        description: 'lineage-19.1'
         required: true
         default: 'fox_11.0_Q'
       DEVICE_PATH:
-        description: 'DEVICE_PATH'
+        description: 'device/samsung/gta4xlwifi'
         required: true
         default: 'device/xiaomi/garden'
       COMMON_TREE_URL:
@@ -30,11 +30,11 @@ on:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
       DEVICE_NAME:
-        description: 'DEVICE_NAME'
+        description: 'gta4xlwifi'
         required: true
         default: 'garden'
       MAKEFILE_NAME:
-        description: 'MAKEFILE_NAME'
+        description: 'twrp_gta4xlwifi'
         required: true
         default: 'twrp_garden'
       BUILD_TARGET:
