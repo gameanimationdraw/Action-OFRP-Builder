@@ -12,11 +12,11 @@ on:
         required: true
         default: '11.0'
       DEVICE_TREE_URL:
-        description: 'DEVICE_TREE_URL'
+        description: 'https://github.com/LineageOS/android_device_samsung_gta4xlwifi'
         required: true
         default: 'https://github.com/OrangeFoxRecovery/device_xiaomi_garden'
       DEVICE_TREE_BRANCH:
-        description: 'DEVICE_TREE_BRANCH'
+        description: 'lineage-18.1'
         required: true
         default: 'fox_11.0_Q'
       DEVICE_PATH:
