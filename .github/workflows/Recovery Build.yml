@@ -10,15 +10,15 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: '12.1'
+        default: '11.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/LineageOS/android_device_samsung_gta4xlwifi'
+        default: 'https://github.com/gta4xl/twrp_device_samsung_gta4xlwifi'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'lineage-19.1'
+        default: 'android-10.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'lineage_gta4xlwifi'
+        default: 'omni_gta4xlwifi'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
